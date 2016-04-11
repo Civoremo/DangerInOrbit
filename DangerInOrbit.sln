@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{135D92EE-0E5E-C4BC-080D-6F36C618F454}") = "DangerInOrbit", "Assembly-CSharp.csproj", "{07950E64-C58B-B6D0-88CD-B848FD32D530}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07950E64-C58B-B6D0-88CD-B848FD32D530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07950E64-C58B-B6D0-88CD-B848FD32D530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07950E64-C58B-B6D0-88CD-B848FD32D530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07950E64-C58B-B6D0-88CD-B848FD32D530}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: 863dd113ca6bcea4aa90d173b35abc81
+timeCreated: 1460305504
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: asteroids_0
+    21300002: asteroids_1
+    21300004: asteroids_2
+    21300006: asteroids_3
+    21300008: asteroids_4
+    21300010: asteroids_5
+    21300012: asteroids_6
+    21300014: asteroids_7
+    21300016: asteroids_8
+    21300018: asteroids_9
+    21300020: asteroids_10
+    21300022: asteroids_11
+    21300024: asteroids_12
+    21300026: asteroids_13
+    21300028: asteroids_14
+    21300030: asteroids_15
+    21300032: asteroids_16
+    21300034: asteroids_17
+    21300036: asteroids_18
+    21300038: asteroids_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: asteroids_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 86
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 86
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 82
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 93
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 90
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 83
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 18.5}
+        - {x: -19, y: 10.5}
+        - {x: -19, y: -18.5}
+        - {x: 19, y: -18.5}
+        - {x: 19, y: 12.5}
+        - {x: 12, y: 18.5}
+    - name: asteroids_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 83
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 18.5}
+        - {x: -19, y: 10.5}
+        - {x: -19, y: -18.5}
+        - {x: 19, y: -18.5}
+        - {x: 19, y: 12.5}
+        - {x: 12, y: 18.5}
+    - name: asteroids_7
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 69
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_8
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 93
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_9
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 90
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 83
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 18.5}
+        - {x: -19, y: 10.5}
+        - {x: -19, y: -18.5}
+        - {x: 19, y: -18.5}
+        - {x: 19, y: 12.5}
+        - {x: 12, y: 18.5}
+    - name: asteroids_11
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 83
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 18.5}
+        - {x: -19, y: 10.5}
+        - {x: -19, y: -18.5}
+        - {x: 19, y: -18.5}
+        - {x: 19, y: 12.5}
+        - {x: 12, y: 18.5}
+    - name: asteroids_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 54
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 53
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_14
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 50
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 43
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 18.5}
+        - {x: -19, y: 10.5}
+        - {x: -19, y: -18.5}
+        - {x: 19, y: -18.5}
+        - {x: 19, y: 12.5}
+        - {x: 12, y: 18.5}
+    - name: asteroids_16
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 43
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 18.5}
+        - {x: -19, y: 10.5}
+        - {x: -19, y: -18.5}
+        - {x: 19, y: -18.5}
+        - {x: 19, y: 12.5}
+        - {x: 12, y: 18.5}
+    - name: asteroids_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 34
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 26
+        width: 58
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: asteroids_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 800
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,13 +5,13 @@ public class OrbitMovement : MonoBehaviour {
 
 	public float RotationAroundOrbitSpeed = 0.5f;
 	public SpriteRenderer debryRenderer;
-	float angle;
+	public float angle;
 	Vector3 startingAngle;
-	int clockWise;
+	public int clockWise;
 
 	// Use this for initialization
-	void Awake() {
-		RotationAroundOrbitSpeed = Random.Range (0.1f, 0.3f);
+	void Start() {
+		RotationAroundOrbitSpeed = Random.Range (0.05f, 0.2f);
 		angle = Random.Range (0,360);
 		startingAngle = new Vector3 (0,0,angle);
 		transform.eulerAngles = startingAngle;
@@ -20,7 +20,7 @@ public class OrbitMovement : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
 		MovingCloser ();
 	}
 

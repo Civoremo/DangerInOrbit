@@ -3,25 +3,33 @@ using System.Collections;
 
 public class OrbitClosingIn : MonoBehaviour {
 
-	public float FallingSpeed = 0.002f;
+	public float minFallSpeed = 0.0005f;
+	public float maxFallSpeed = 0.0015f;
+	public float minDistanceAway = 5.5f;
+	public float maxDistanceAway = 7f;
+	public float FallingSpeed;
+	public SpriteRenderer signRenderer;
+	public Transform center;
 	Vector3 posDebry;
-	float distance;
+	public float distance;
+	bool alive = true;
 
 	// Use this for initialization
-	void Awake () {
-		FallingSpeed = Random.Range (0.002f, 0.005f);
+	void Start () {
+		FallingSpeed = Random.Range (minFallSpeed, maxFallSpeed);
 		posDebry = transform.localPosition;
-		distance = Random.Range (3.2f, 5f);
+		distance = Random.Range (minDistanceAway, maxDistanceAway);
 		posDebry.y = distance;
 		transform.position = posDebry;
-
+		signRenderer.enabled = false;
 		//Debug.Log (FallingSpeed + "  " + distance);
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
 	
 		MovingIn ();
+		ClosingSignIndicator ();
 	}
 
 	public void MovingIn()
@@ -33,4 +41,15 @@ public class OrbitClosingIn : MonoBehaviour {
 			transform.localPosition = posDebry;
 		}
 	}
+
+	public void ClosingSignIndicator()
+	{
+		if (posDebry.y < 4f) {
+			if (alive == true) {				
+				signRenderer.enabled = true;
+				alive = false;
+			}
+		}
+	}
 }
+

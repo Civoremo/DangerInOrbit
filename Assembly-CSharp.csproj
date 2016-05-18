@@ -48,12 +48,20 @@
      <Compile Include="Assets\Scripts\Bullet\BulletMovement.cs" />
      <Compile Include="Assets\Scripts\Bullet\FireBullet.cs" />
      <Compile Include="Assets\Scripts\CameraRotate.cs" />
+     <Compile Include="Assets\Scripts\Clouds\CloudMovement.cs" />
      <Compile Include="Assets\Scripts\Debry\DebryDestroy.cs" />
      <Compile Include="Assets\Scripts\Debry\OrbitClosingIn.cs" />
      <Compile Include="Assets\Scripts\Debry\OrbitMovement.cs" />
-     <Compile Include="Assets\Scripts\Debry\TrailDrawing.cs" />
      <Compile Include="Assets\Scripts\DebrySpawn.cs" />
      <Compile Include="Assets\Scripts\DestroyOutOfAreaObject.cs" />
+     <Compile Include="Assets\Scripts\ExplosionDestructor.cs" />
+     <Compile Include="Assets\Scripts\PowerUp.cs" />
+     <Compile Include="Assets\Scripts\Serializer\HighScore.cs" />
+     <Compile Include="Assets\Scripts\Serializer\SaveHighScore.cs" />
+     <Compile Include="Assets\Scripts\Serializer\XMLSerializer.cs" />
+     <Compile Include="Assets\Scripts\Sounds.cs" />
+     <Compile Include="Assets\Scripts\WarningSignPointer.cs" />
+     <None Include="Assets\HighScore.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
